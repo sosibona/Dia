@@ -1,0 +1,46 @@
+.proposition {
+  margin-left: 12%;
+  margin-right: calc(12% + 93px);
+  background-color: white;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  color: #253757;
+  text-align: center;
+}
+
+.proposition-tittle {
+  margin-bottom: 136px;
+}
+
+.proposition-field {
+  display: flex;
+  margin-bottom: 15%;
+  justify-content: space-between;
+}
+
+.proposition-item {
+  max-width: 264px;
+  margin-left: 13.1%;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.item-title {
+  font-size: 19.6px;
+  font-weight: 900;
+  line-height: 27px;
+  color: #253757;
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #334563;
+  mix-blend-mode: normal;
+}

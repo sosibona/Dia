@@ -1,0 +1,199 @@
+@media screen and (max-width: 1400px){
+  .step-1, .step-3 {
+    left: 50%;
+  }
+
+  .step-2, .step-4 {
+    left: 72%;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .advert__title {
+    font-size: 48px;
+  }
+
+  .feadback {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .welcome {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .proposition-item {
+    margin-left: 5%;
+  }
+
+  .proposition-tittle {
+    margin-bottom: 80px;
+  }
+
+  .process {
+    min-height: 530px;
+  }
+
+  .section {
+    padding-left: calc(12% - 64px);
+    padding-top: 50px;
+    padding-right: calc(12% - 64px);
+  }
+
+  .process-field {
+    width: 100%;
+  }
+
+  .step-media {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .step {
+    position: static;
+  }
+
+  .step-count-red,
+  .step-count-blue,
+  .step-count-orange,
+  .step-count-green {
+    position: relative;
+    top: -35px;
+    left: calc(50% - 12px);
+  }
+
+  .step-text {
+    margin-top: -32px;
+  }
+
+  .section-features {
+    padding-left: 12%;
+    background-color: #56ccf2;
+    background-image: none;
+    min-height: 800px;
+  }
+
+  .section-title-white {
+    padding-top: 0px;
+  }
+
+  .feadback__card {
+    margin-right: 0px;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-top: 50px;
+  }
+
+  .btn-form {
+    margin-top: 50px;
+  }
+
+  .contacts {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .header:before {
+    display: none;
+  }
+  .nav {
+    flex-direction: column;
+
+    &__logo {
+      margin: 51px auto;
+    }
+  }
+
+  .menu {
+    margin: 0 auto;
+  }
+
+  .menu__item:first-child {
+    margin-left: 0;
+  }
+
+  .menu__item:last-child {
+    margin-left: 0;
+  }
+
+  .header__advert {
+    margin: 20px auto;
+  }
+
+  .advert__title {
+    text-align: center;
+  }
+
+  .advert__info {
+    font-size: 20px;
+  }
+
+  .social-link {
+    color: transparent;
+  }
+
+  @mixin social-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(0deg);
+    margin: 0 auto;
+    width: 50%;
+    height: 7%;
+  }
+
+  .social-fb {
+    background-image: url("../img/social/fb.png");
+    @include social-img;
+  }
+
+  .social-twitter {
+    background-image: url("../img/social/twitter.png");
+    @include social-img;
+  }
+
+  .social-instagram {
+    background-image: url("../img/social/instagram.png");
+    @include social-img;
+  }
+
+  .step-media {
+    display: none;
+  }
+
+  .process {
+    min-height: 0px;
+  }
+
+  .process-field {
+    padding-bottom: 5%;
+    margin: 0 auto;
+  }
+
+  .section-features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 600px;
+  }
+
+  .features-text {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px){
+
+  .advert__title {
+    font-size: 30px;
+  }
+}

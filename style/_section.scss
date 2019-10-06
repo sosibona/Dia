@@ -1,0 +1,45 @@
+@mixin tiitle {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 37px;
+  margin-bottom: 19px;
+}
+
+.section {
+  padding: 0 324px 0 227px;
+
+  &-title {
+    @include tiitle;
+    color: #56CCF2;
+
+    &:before {
+      content:"";
+      display: block;
+      background-image: url("../img/Vector.png");
+      left: 0;
+      width: 21px;
+      height: 21px;
+      position: absolute;
+    }
+  }
+}
+
+.section-title-white {
+  @include tiitle;
+  color: white;
+  padding-top: 198px;
+
+  &:before {
+    content:"";
+    display: block;
+    background-image: url("../img/Vector-white.png");
+    left: 0;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+  }
+}

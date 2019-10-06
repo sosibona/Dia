@@ -1,0 +1,116 @@
+.process {
+  margin: 0 64px;
+  background-color: #fcfcfc;
+  min-height: 656px;
+  padding-left: calc(12% - 64px);
+  padding-top: 160px;
+  position: relative;
+}
+
+.heading-title {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 900;
+  color: #253757;
+  margin-bottom: 32px;
+}
+
+.process-field {
+  width: 362px;
+}
+
+.step {
+  position: absolute;
+  width: 240px;
+  padding: 48px 32px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+  z-index: 1;
+}
+
+.step-1 {
+  left: 63.8%;
+  top: 41.2%;
+}
+
+.step-2 {
+  left: 83%;
+  top: 27.5%;
+}
+
+.step-3 {
+  left: 63.8%;
+  top: 88.3%;
+}
+
+.step-4 {
+  left: 83%;
+  top: 74.5%;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  opacity: 0.1;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.circle-blue {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56CCF2, #56CCF2), #C4C4C4;
+}
+.circle-orange {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+}
+
+.circle-green {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #03D542, #03D542), #C4C4C4;
+}
+
+.circle-red {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;
+}
+
+@mixin step-count {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 2;
+  top: 64px;
+  left: 107px
+}
+.step-count-blue {
+  @include step-count;
+  color: #56CCF2;
+}
+
+.step-count-orange {
+  @include step-count;
+  color: #FCC304;
+}
+
+.step-count-green {
+  @include step-count;
+  color: #03D542;
+}
+
+.step-count-red {
+  @include step-count;
+  color: #F25656;
+}
+
+.step-text {
+  font-size: 12.6px;
+  text-align: center;
+  color: #253757;
+  mix-blend-mode: normal;
+  margin-top: 32px;
+}
+@mixin step {
+
+}

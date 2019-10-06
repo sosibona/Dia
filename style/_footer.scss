@@ -1,0 +1,24 @@
+.footer {
+  padding: 4% 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+}
+
+.design-by {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.footer-menu-item {
+  font-weight: bold;
+  font-size: 16px;
+  color: #253757;
+  text-decoration: none;
+  margin-right: 50px;
+  white-space: nowrap;
+}

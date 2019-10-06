@@ -1,0 +1,45 @@
+.section-features {
+  padding-left: 12%;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 976px;
+}
+
+.features-feild {
+
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.features-text {
+  width: 362px;
+  position: absolute;
+}
+
+.features-circle {
+  min-width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32px;
+}
+
+.features-item-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
