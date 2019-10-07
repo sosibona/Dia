@@ -50,6 +50,12 @@
   font-size: 16px;
   margin-top: 100px;
   cursor: pointer;
+
+  &:hover {
+    border: 1px solid #2F80ED;
+    background-color: white;
+    color: #2F80ED;
+  }
 }
 
 .contact-tittle {

@@ -7,17 +7,13 @@
   min-height: 976px;
 }
 
-.features-feild {
-
-}
-
 .features-item {
   display: flex;
   align-items: center;
   margin-bottom: 64px;
 
   &:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
@@ -35,6 +31,10 @@
   align-items: center;
   justify-content: center;
   margin-right: 32px;
+
+  &:hover {
+    transform: scale(1.2, 1.2);
+  }
 }
 
 .features-item-text {
